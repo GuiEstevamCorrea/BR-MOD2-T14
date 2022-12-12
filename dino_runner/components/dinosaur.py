@@ -3,8 +3,8 @@ import pygame
 from dino_runner.utils.constants import RUNNING, JUMPING
 
 X_POS = 80
-Y_POS = 220
-JUMP_VEL = 8.5
+Y_POS = 221
+JUMP_VEL = 8.4
 
 
 class Dinosaur:
