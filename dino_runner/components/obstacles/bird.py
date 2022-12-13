@@ -6,7 +6,7 @@ from dino_runner.components.dinosaur import Y_POS
 class Bird(Obstacle):
     def __init__(self):
         super().__init__(BIRD, 0)
-        self.rect.y = Y_POS - 50
+        self.rect.y = Y_POS - 70
         self.step_index = 0
 
     def draw(self, screen):
