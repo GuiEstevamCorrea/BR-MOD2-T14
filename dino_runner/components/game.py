@@ -25,7 +25,7 @@ class Game:
         self.death_count = 0
         self.game_speed = 20
         self.x_pos_bg = 0
-        self.y_pos_bg = 300
+        self.y_pos_bg = -500
         self.player = Dinosaur()
         self.obstacle_manager = ObstacleManager()
 

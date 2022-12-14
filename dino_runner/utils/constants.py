@@ -93,7 +93,7 @@ CLOUD = pygame.image.load(os.path.join(IMG_DIR, "Other/Cloud.png"))
 SHIELD = pygame.image.load(os.path.join(IMG_DIR, "Other/Shield.png"))
 HAMMER = pygame.image.load(os.path.join(IMG_DIR, "Other/Hammer.png"))
 
-BG = pygame.image.load(os.path.join(IMG_DIR, "Other/Track.png"))
+BG = pygame.image.load(os.path.join(IMG_DIR, "Other/bg1.png"))
 HEART = pygame.image.load(os.path.join(IMG_DIR, "Other/SmallHeart.png"))
 
 DEFAULT_TYPE = "default"
