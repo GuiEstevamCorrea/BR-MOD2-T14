@@ -9,6 +9,14 @@ SCREEN_WIDTH = 1100
 FPS = 30
 IMG_DIR = os.path.join(os.path.dirname(__file__), "..", "assets")
 
+#text
+FONT_STYLE = "freesansbold.ttf"
+FONT_SIZE = 22
+FONT_COLOR_BLACK = (0, 0, 0) #Black
+FONT_COLOR_WHITE = (255, 255, 255) #White
+
+
+
 # Assets constants
 ICON = pygame.image.load(os.path.join(IMG_DIR, "DinoWallpaper.png"))
 
