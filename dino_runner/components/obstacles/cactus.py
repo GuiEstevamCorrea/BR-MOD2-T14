@@ -6,8 +6,8 @@ from dino_runner.utils.constants import LARGE_CACTUS, SMALL_CACTUS
 
 
 CACTUS =[
-    (LARGE_CACTUS, Y_POS - 5),
-    (SMALL_CACTUS, Y_POS + 20)
+    (LARGE_CACTUS, Y_POS - 65),
+    (SMALL_CACTUS, Y_POS )
 ]
 
 
