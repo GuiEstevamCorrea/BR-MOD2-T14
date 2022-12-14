@@ -18,12 +18,18 @@ FONT_COLOR_WHITE = (255, 255, 255) #White
 
 
 # Assets constants
-ICON = pygame.image.load(os.path.join(IMG_DIR, "DinoWallpaper.png"))
+ICON = pygame.image.load(os.path.join(IMG_DIR, "Dino/Warrior_Death_11_new.png"))
 
 # Run
 RUNNING = [
-    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/DinoRun1.png")),
-    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/DinoRun2.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_1.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_2.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_3.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_4.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_5.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_6.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_7.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_8.png")),
 ]
 RUNNING_SHIELD = [
     pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/DinoRunShield1.png")),
@@ -36,8 +42,11 @@ RUNNING_HAMMER = [
 
 # Duck
 DUCKING = [
-    pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/DinoDuck1.png")),
-    pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/DinoDuck2.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/Warrior-Slide_1.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/Warrior-Slide_2.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/Warrior-Slide_3.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/Warrior-Slide_4.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/Warrior-Slide_5.png")),
 ]
 DUCKING_SHIELD = [
     pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/DinoDuckShield1.png")),
@@ -49,7 +58,8 @@ DUCKING_HAMMER = [
 ]
 
 # Jump
-JUMPING = pygame.image.load(os.path.join(IMG_DIR, "Dino/Jump/DinoJump.png"))
+JUMPING = pygame.image.load(os.path.join(IMG_DIR, "Dino/Jump/Warrior_Jump_1.png"))
+JUMPING = pygame.image.load(os.path.join(IMG_DIR, "Dino/Jump/Warrior_Fall_3.png"))
 JUMPING_SHIELD = pygame.image.load(
     os.path.join(IMG_DIR, "Dino/Jump/DinoJumpShield.png")
 )
