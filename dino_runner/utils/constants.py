@@ -32,8 +32,14 @@ RUNNING = [
     pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_8.png")),
 ]
 RUNNING_SHIELD = [
-    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/DinoRunShield1.png")),
-    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/DinoRunShield2.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_1_shield.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_2_shield.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_3_shield.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_4_shield.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_5_shield.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_6_shield.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_7_shield.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/Warrior_Run_8_shield.png")),
 ]
 RUNNING_HAMMER = [
     pygame.image.load(os.path.join(IMG_DIR, "Dino/Run/DinoRunHammer1.png")),
@@ -49,8 +55,11 @@ DUCKING = [
     pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/Warrior-Slide_5.png")),
 ]
 DUCKING_SHIELD = [
-    pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/DinoDuckShield1.png")),
-    pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/DinoDuckShield2.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/Warrior-Slide_1_shield.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/Warrior-Slide_2_shield.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/Warrior-Slide_3_shield.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/Warrior-Slide_4_shield.png")),
+    pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/Warrior-Slide_5_shield.png")),
 ]
 DUCKING_HAMMER = [
     pygame.image.load(os.path.join(IMG_DIR, "Dino/Duck/DinoDuckHammer1.png")),
@@ -58,10 +67,13 @@ DUCKING_HAMMER = [
 ]
 
 # Jump
-JUMPING = pygame.image.load(os.path.join(IMG_DIR, "Dino/Jump/Warrior_Jump_1.png"))
+JUMPING = pygame.image.load(os.path.join(IMG_DIR, "Dino/Jump/Warrior_Jump_3.png"))
 JUMPING = pygame.image.load(os.path.join(IMG_DIR, "Dino/Jump/Warrior_Fall_3.png"))
 JUMPING_SHIELD = pygame.image.load(
-    os.path.join(IMG_DIR, "Dino/Jump/DinoJumpShield.png")
+    os.path.join(IMG_DIR, "Dino/Jump/Warrior_Jump_3_shield.png")
+)
+JUMPING_SHIELD = pygame.image.load(
+    os.path.join(IMG_DIR, "Dino/Jump/Warrior_Fall_3_shield.png")
 )
 JUMPING_HAMMER = pygame.image.load(
     os.path.join(IMG_DIR, "Dino/Jump/DinoJumpHammer.png")
