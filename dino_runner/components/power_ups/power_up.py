@@ -9,8 +9,8 @@ class PowerUp(pygame.sprite.Sprite):
         self.image = image
         self.type = type
         self.rect = self.image.get_rect()
-        self.rect.x = SCREEN_WIDTH + random.randint(800, 1000)
-        self.rect.y = random.randint(125, 175)
+        self.rect.x = SCREEN_WIDTH + random.randint(600, 900)
+        self.rect.y = random.randint(150, 200)
         self.duration = random.randint(5, 10)
         self.start_time = 0
 

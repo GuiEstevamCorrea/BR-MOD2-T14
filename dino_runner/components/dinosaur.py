@@ -30,12 +30,15 @@ RUN_IMG = {
     SHIELD_TYPE: RUNNING_SHIELD,
 }
 
+from dino_runner.utils.utils import fix_rect
+
 
 class Dinosaur(pygame.sprite.Sprite):
     def __init__(self):
         self.type = DEFAULT_TYPE
         self.image = RUN_IMG[self.type][0]
         self.dino_rect = self.image.get_rect()
+        self.dino_rect.size = fix_rect(self.dino_rect.size, 0.75)
         self.dino_rect.x = X_POS
         self.dino_rect.y = Y_POS
         self.jump_vel = JUMP_VEL
@@ -50,6 +53,7 @@ class Dinosaur(pygame.sprite.Sprite):
         self.shield = False
         self.show_text = False
         self.shield_time_up = 0
+        self.power_up_time = 0
 
     def run(self):
         self.image = RUN_IMG[self.type][self.step_index // 5]
